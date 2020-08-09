@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    background-color: blueviolet;
+    justify-content:space-around;
+}
+h1{
+    display: flex;
+    align-items: center;
+    color: rgb(165, 15, 15);
+    margin: 20px;
+    font-size: 30px;
+}
+.photo-container{
+    display: flex;
+    flex-direction:column;
+    background-color: coral;
+    padding: 20px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border: darkblue;
+    border-radius: 23px;
+padding: 5px;
+/* margin-left:20px; */
+margin: 0px;
+background-color: darkgoldenrod;
+}
